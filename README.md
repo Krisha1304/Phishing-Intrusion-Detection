@@ -1,17 +1,16 @@
-# Phishing Intrusion Detection System
+# Phishing Intrusion Detection System using Machine Learning
 
-Overview
-This project detects phishing URLs using Machine Learning. It extracts URL-based features and classifies them as phishing or legitimate.
+A machine learning–based system to detect **phishing URLs** by analyzing URL features and classifying them as **legitimate** or **phishing**.  
+The project includes **model training**, **feature extraction**, and a **Flask web application** for real-time URL checking.
 
-Features
-- URL feature extraction
-- Machine learning model using Random Forest
-- Intrusion detection logic
-- Git version control
+---
 
-Machine Learning Approach
-- Feature extraction from URLs
-- Random Forest classifier
-- Model saved for reuse
+Problem Statement
+Phishing attacks are a major cybersecurity threat where attackers trick users into revealing sensitive information through fake websites.  
+This project aims to **detect phishing URLs automatically** using machine learning techniques.
 
-
+Objectives
+- Extract meaningful features from URLs
+- Train a machine learning model to classify URLs
+- Detect phishing URLs in real time
+- Provide a simple web interface for users
